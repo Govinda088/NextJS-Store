@@ -1,13 +1,13 @@
-import { Button } from "@/components/ui/button";
+import FeaturedProducts from "@/components/home/FeaturedProducts";
+import Hero from "@/components/home/Hero";
+import FavoriteToggleButton from "@/components/products/FavoriteToggleButton";
 
 const Home = () => {
   return (
-    <div className="underline text-4xl  ">
-      <h1>Hom Page</h1>
-      <Button variant="outline" size="lg" className="capitalize m-8">
-        Click me
-      </Button>
-    </div>
+    <>
+      <Hero></Hero>
+      <FeaturedProducts></FeaturedProducts>
+    </>
   );
 };
 export default Home;
